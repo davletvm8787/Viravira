@@ -8,9 +8,10 @@ import '../../../app/common_view/error_widget.dart';
 import '../../../app/resource/color_manager.dart';
 import '../../../app/resource/font_manager.dart';
 
-class CampaignsDetailPage extends StatelessWidget {
-  int campaignId;
-  CampaignsDetailPage({super.key, required this.campaignId});
+class CharacterDetailPage extends StatelessWidget {
+  CharacterDetailPage({
+    super.key,
+  });
 
   late BuildContext context;
 
